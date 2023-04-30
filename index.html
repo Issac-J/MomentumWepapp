@@ -4,7 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Momentum App</title>
+
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Clock -->
+    <h2 id="clock">00:00:00</h2>
+
+    <!-- Login Message -->
+    <h2 id="before-login">Please Login ...</h2>
+    <h2 id="after-login" class="hidden"></h2>
+
+    <!-- Login -->
+    <form id="loginContainer">
+      <input
+        id="loginInput"
+        type="text"
+        maxlength="20"
+        placeholder="Please enter your name"
+      />
+      <input id="loginButton" type="submit" value="LogIn" />
+    </form>
+
+    <!-- TodoList -->
+    <form id="todo-form">
+      <input
+        type="text"
+        id="todo-input"
+        placeholder="Write a To Do and Press Enter"
+      />
+    </form>
+    <ul id="todo-list"></ul>
+
+    <!-- Weather -->
+    <div id="weather-container">
+      <div id="weather"></div>
+      <div id="city"></div>
+    </div>
+
+    <!-- Insert scripts -->
+    <script src="./js/background.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/todoList.js"></script>
+    <script src="./js/weather.js"></script>
+  </body>
 </html>
