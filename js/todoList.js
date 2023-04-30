@@ -29,7 +29,7 @@ function createToDo(newToDo) {
 
   button.addEventListener("click", (event) => {
     const li = event.target.parentElement;
-    // li.remove();
+    li.remove();
     console.dir(li);
   });
 }

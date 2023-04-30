@@ -3,7 +3,6 @@ body {
   height: 100vh;
 
   background-size: cover;
-
   font-family: "Open Sans", sans-serif;
 }
 
@@ -11,11 +10,76 @@ h1 {
   color: #fff;
   font-size: 8em;
   font-weight: bold;
+  letter-spacing: 0.4rem;
+
+  /* 중앙 정렬 */
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0px;
 
   /* 정중앙 정렬 */
   position: absolute;
   left: 50%;
   top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-container {
+  color: #fff;
+
+  /* 정중앙 정렬 */
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+}
+
+/* #loginInput {
+  width: 200px;
+  height: 32px;
+  font-size: 15px;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding: 4px 0 4px 20px;
+  background-color: rgb(233, 233, 233);
+} */
+
+#todo-form {
+  color: #fff;
+
+  /* 정중앙 정렬 */
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+
+#todo-list {
+  color: #fff;
+
+  /* 정중앙 정렬 */
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+}
+
+#weather-container {
+  color: #fff;
+
+  /* 정중앙 정렬 */
+  position: absolute;
+  left: 50%;
+  top: 20%;
   transform: translate(-50%, -50%);
 }
 
